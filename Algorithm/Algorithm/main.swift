@@ -1,5 +1,5 @@
 import Foundation
 
-let minimizeMaximumPairSumInArray = MinimizeMaximumPairSumInArray()
-print(minimizeMaximumPairSumInArray.minPairSum([3,5,2,3]))
-print(minimizeMaximumPairSumInArray.minPairSum([3,5,4,2,4,6]))
+let topKFrequentElements = TopKFrequentElements()
+print(topKFrequentElements.topKFrequent([1,1,1,2,2,3], 2))
+print(topKFrequentElements.topKFrequent([1], 1))
