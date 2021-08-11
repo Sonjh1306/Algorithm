@@ -1,5 +1,6 @@
 import Foundation
 
-let topKFrequentElements = TopKFrequentElements()
-print(topKFrequentElements.topKFrequent([1,1,1,2,2,3], 2))
-print(topKFrequentElements.topKFrequent([1], 1))
+let numberOfGoodPairs = NumberOfGoodPairs()
+print(numberOfGoodPairs.numIdenticalPairs([1,2,3,1,1,3]))
+print(numberOfGoodPairs.numIdenticalPairs([1,1,1,1]))
+print(numberOfGoodPairs.numIdenticalPairs([1,2,3]))
