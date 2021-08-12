@@ -1,6 +1,5 @@
 import Foundation
 
-let numberOfGoodPairs = NumberOfGoodPairs()
-print(numberOfGoodPairs.numIdenticalPairs([1,2,3,1,1,3]))
-print(numberOfGoodPairs.numIdenticalPairs([1,1,1,1]))
-print(numberOfGoodPairs.numIdenticalPairs([1,2,3]))
+let validateStackSequences = ValidateStackSequences()
+print(validateStackSequences.validateStackSequences([1,2,3,4,5], [4,5,3,2,1]))
+print(validateStackSequences.validateStackSequences([1,2,3,4,5], [4,3,5,1,2]))
