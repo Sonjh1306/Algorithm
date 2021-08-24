@@ -25,6 +25,7 @@
 		BD4EBCB326C61A63006D32D8 /* 2021.08.13.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4EBCB226C61A63006D32D8 /* 2021.08.13.swift */; };
 		BD90E0D526C3FAA8004A5A8A /* 2021.08.10.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90E0D426C3FAA8004A5A8A /* 2021.08.10.swift */; };
 		BDDEB6F026D3A4CC00257186 /* 2021.08.23.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDEB6EF26D3A4CC00257186 /* 2021.08.23.swift */; };
+		BDDEB6F226D4C9C500257186 /* 2021.08.24.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDEB6F126D4C9C500257186 /* 2021.08.24.swift */; };
 		BDE80C2326C28E89006ADCCB /* 2021.08.11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE80C2226C28E89006ADCCB /* 2021.08.11.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		BD4EBCB226C61A63006D32D8 /* 2021.08.13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.13.swift; sourceTree = "<group>"; };
 		BD90E0D426C3FAA8004A5A8A /* 2021.08.10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.10.swift; sourceTree = "<group>"; };
 		BDDEB6EF26D3A4CC00257186 /* 2021.08.23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.23.swift; sourceTree = "<group>"; };
+		BDDEB6F126D4C9C500257186 /* 2021.08.24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.24.swift; sourceTree = "<group>"; };
 		BDE80C2226C28E89006ADCCB /* 2021.08.11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.11.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				BD20DDA526CD207D003C6CDE /* 2021.08.18.swift */,
 				BD20DDA726CE2985003C6CDE /* 2021.08.19.swift */,
 				BDDEB6EF26D3A4CC00257186 /* 2021.08.23.swift */,
+				BDDEB6F126D4C9C500257186 /* 2021.08.24.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				BD0A0C9226BBA4F500F4EB64 /* 2021.08.05.swift in Sources */,
 				BD0A0C8626BA714300F4EB64 /* 2021.07.22.swift in Sources */,
 				BD20DDA626CD207D003C6CDE /* 2021.08.18.swift in Sources */,
+				BDDEB6F226D4C9C500257186 /* 2021.08.24.swift in Sources */,
 				BD20DDA426CB85C6003C6CDE /* 2021.08.17.swift in Sources */,
 				BDE80C2326C28E89006ADCCB /* 2021.08.11.swift in Sources */,
 				BD4EBCB326C61A63006D32D8 /* 2021.08.13.swift in Sources */,

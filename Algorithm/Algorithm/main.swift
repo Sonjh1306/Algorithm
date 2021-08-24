@@ -1,7 +1,11 @@
 import Foundation
 
-let heightChecker = HeightChecker()
+//let rabbitsInForest = RabbitsInForest()
+//print(rabbitsInForest.numRabbits([10,10,10]))
+//print(rabbitsInForest.numRabbits([1,1,2]))
+//print(rabbitsInForest.numRabbits([1,0,1,0,0]))
+//print(rabbitsInForest.numRabbits([0,0,1,1,1]))
 
-print(heightChecker.heightChecker([1,1,4,2,1,3]))
-print(heightChecker.heightChecker([5,1,2,3,4]))
-print(heightChecker.heightChecker([1,2,3,4,5]))
+let jewelsAndStones = JewelsAndStones()
+print(jewelsAndStones.numJewelsInStones("aA", "aAAbbbb"))
+print(jewelsAndStones.numJewelsInStones("z", "ZZ"))
