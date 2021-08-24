@@ -1,5 +1,26 @@
 import Foundation
 
+class RabbitsInForest {
+    func numRabbits(_ answers: [Int]) -> Int {
+        var dict: [Int: Int] = [:]
+        var count = answers.count
+        
+        for answer in answers {
+            count += answer
+            if dict[answer] == nil {
+                dict[answer] = 1
+            } else if dict[answer]! < answer + 1 {
+                dict[answer] = dict[answer]! + 1
+                count -= answer + 1
+            } else {
+                dict[answer] = 1
+            }
+        }
+        return count
+    }
+
+}
+
 class JewelsAndStones {
     func numJewelsInStones(_ jewels: String, _ stones: String) -> Int {
         var dict: [String: Int] = [:]
@@ -49,3 +70,5 @@ class SortingTheSentence {
         return result
     }
 }
+
+
