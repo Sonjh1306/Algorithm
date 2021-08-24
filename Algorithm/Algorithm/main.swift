@@ -9,3 +9,7 @@ import Foundation
 let jewelsAndStones = JewelsAndStones()
 print(jewelsAndStones.numJewelsInStones("aA", "aAAbbbb"))
 print(jewelsAndStones.numJewelsInStones("z", "ZZ"))
+
+let sortingTheSentence = SortingTheSentence()
+print(sortingTheSentence.sortSentence("is2 sentence4 This1 a3"))
+print(sortingTheSentence.sortSentence("Myself2 Me1 I4 and3"))

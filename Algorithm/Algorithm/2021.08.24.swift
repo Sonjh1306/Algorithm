@@ -22,3 +22,30 @@ class JewelsAndStones {
         return count
     }
 }
+
+class SortingTheSentence {
+    func sortSentence(_ s: String) -> String {
+        let inputString = s.components(separatedBy: " ").sorted { string1, string2 in
+            return string1.last! < string2.last!
+        }
+        var resultArray = [String]()
+        var result = ""
+        
+        
+        for string in inputString {
+            var string = string
+            string.removeLast()
+            resultArray.append(string)
+        }
+        
+        for i in 0..<resultArray.count {
+            if resultArray.count - 1 != i {
+                result += "\(resultArray[i]) "
+            } else {
+                result += "\(resultArray[i])"
+            }
+        }
+        
+        return result
+    }
+}
