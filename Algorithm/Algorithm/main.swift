@@ -1,8 +1,7 @@
 import Foundation
 
-let recommendOccupationGroups = RecommendOccupationGroups()
-print(recommendOccupationGroups.solution(["SI JAVA JAVASCRIPT SQL PYTHON C#", "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++", "HARDWARE C C++ PYTHON JAVA JAVASCRIPT", "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP", "GAME C++ C# JAVASCRIPT C JAVA"], ["PYTHON", "C++", "SQL"], [7, 5, 5]))
-
-print(recommendOccupationGroups.solution(["SI JAVA JAVASCRIPT SQL PYTHON C#", "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++", "HARDWARE C C++ PYTHON JAVA JAVASCRIPT", "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP", "GAME C++ C# JAVASCRIPT C JAVA"], ["JAVA", "JAVASCRIPT"], [7, 5]))
-
+let runningSum = RunningSum()
+print(runningSum.runningSum([1,2,3,4]))
+print(runningSum.runningSum([1,1,1,1,1]))
+print(runningSum.runningSum([3,1,2,10,1]))
 

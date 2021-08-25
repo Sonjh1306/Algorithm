@@ -31,3 +31,20 @@ class RecommendOccupationGroups {
     }
 }
 
+
+class RunningSum {
+    
+    func runningSum(_ nums: [Int]) -> [Int] {
+        var result: [Int] = []
+        var sum = 0
+        
+        for i in 0..<nums.count {
+            sum += nums[i]
+            result.append(sum)
+        }
+        
+        return result
+    }
+    
+}
+
