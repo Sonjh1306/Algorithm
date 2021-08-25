@@ -48,3 +48,19 @@ class RunningSum {
     
 }
 
+class RichestCustomerWealth {
+    func maximumWealth(_ accounts: [[Int]]) -> Int {
+        var result: [Int] = []
+        var sum = 0
+        
+        for account in accounts {
+            sum = 0
+            for index in account {
+                sum += index
+            }
+            result.append(sum)
+        }
+        
+        return result.max()!
+    }
+}
