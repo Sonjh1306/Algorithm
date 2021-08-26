@@ -4,7 +4,6 @@ class FindTheWinnerOfTheCircularGame {
     func findTheWinner(_ n: Int, _ k: Int) -> Int {
         var gamePlayers = Array(1...n)
         
-        // k-1 배열을 새로 만든다.
         while gamePlayers.count > 1 {
             for _ in 0..<k - 1 {
                 let player = gamePlayers.removeFirst()
@@ -15,5 +14,22 @@ class FindTheWinnerOfTheCircularGame {
         }
         
         return gamePlayers.first!
+    }
+}
+
+class MaximumNestingDepthOfTheParentheses {
+    func maxDepth(_ s: String) -> Int {
+        var m = 0
+        var count = 0
+        
+        for char in s {
+            if char == "(" {
+                count += 1
+                m = max(count, m)
+            } else if char == ")" {
+                count -= 1
+            }
+        }
+        return m
     }
 }
