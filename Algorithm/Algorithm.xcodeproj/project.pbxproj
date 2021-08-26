@@ -28,6 +28,7 @@
 		BDDEB6F226D4C9C500257186 /* 2021.08.24.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDEB6F126D4C9C500257186 /* 2021.08.24.swift */; };
 		BDDEB6F426D619C900257186 /* 2021.08.25.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDEB6F326D619C900257186 /* 2021.08.25.swift */; };
 		BDE80C2326C28E89006ADCCB /* 2021.08.11.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE80C2226C28E89006ADCCB /* 2021.08.11.swift */; };
+		BDF7E7D026D7663200484716 /* 2021.08.26.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E7CF26D7663200484716 /* 2021.08.26.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		BDDEB6F126D4C9C500257186 /* 2021.08.24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.24.swift; sourceTree = "<group>"; };
 		BDDEB6F326D619C900257186 /* 2021.08.25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.25.swift; sourceTree = "<group>"; };
 		BDE80C2226C28E89006ADCCB /* 2021.08.11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.11.swift; sourceTree = "<group>"; };
+		BDF7E7CF26D7663200484716 /* 2021.08.26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.26.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				BDDEB6EF26D3A4CC00257186 /* 2021.08.23.swift */,
 				BDDEB6F126D4C9C500257186 /* 2021.08.24.swift */,
 				BDDEB6F326D619C900257186 /* 2021.08.25.swift */,
+				BDF7E7CF26D7663200484716 /* 2021.08.26.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				BD0A0C8426BA710B00F4EB64 /* 2021.07.21.swift in Sources */,
 				BD0A0C7B26BA70C600F4EB64 /* main.swift in Sources */,
 				BD90E0D526C3FAA8004A5A8A /* 2021.08.10.swift in Sources */,
+				BDF7E7D026D7663200484716 /* 2021.08.26.swift in Sources */,
 				BD0A0C8A26BA717400F4EB64 /* 2021.07.28.swift in Sources */,
 				BD0A0C8226BA70F000F4EB64 /* 2021.07.19.swift in Sources */,
 				BD0A0C8E26BA718A00F4EB64 /* 2021.08.02.swift in Sources */,
