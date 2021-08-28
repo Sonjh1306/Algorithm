@@ -1,8 +1,5 @@
 import Foundation
 
-//let findTheWinnerOfTheCircularGame = FindTheWinnerOfTheCircularGame()
-//print(findTheWinnerOfTheCircularGame.findTheWinner(5, 2))
-//print(findTheWinnerOfTheCircularGame.findTheWinner(6, 5))
-
-let maximumNestingDepthOfTheParentheses = MaximumNestingDepthOfTheParentheses()
-print(maximumNestingDepthOfTheParentheses.maxDepth("(1+(2*3)+((8)/4))+1"))
+let mockTest = MockTest()
+print(mockTest.solution([1,2,3,4,5]))
+print(mockTest.solution([1,3,2,4,2]))
