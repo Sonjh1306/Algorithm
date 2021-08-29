@@ -37,3 +37,20 @@ class ShuffleTheArray {
         return result
     }
 }
+
+class KidsWithTheGreatestNumberOfCandies {
+    func kidsWithCandies(_ candies: [Int], _ extraCandies: Int) -> [Bool] {
+        var result: [Bool] = []
+        let maxCandy = candies.max()!
+        
+        for candy in candies {
+            if candy + extraCandies >= maxCandy  {
+                result.append(true)
+            } else {
+                result.append(false)
+            }
+        }
+        
+        return result
+    }
+}
