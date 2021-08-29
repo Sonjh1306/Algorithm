@@ -72,3 +72,20 @@ class SmallerNumbersThanCurrent {
         return result
     }
 }
+
+class MatrixDiagonalSum {
+    func diagonalSum(_ mat: [[Int]]) -> Int {
+        let count = mat[0].count
+        var sum = 0
+        
+        for i in 0..<count {
+            sum += mat[i][i]
+            sum += mat[count - 1 - i][i]
+        }
+        if count % 2 == 1 {
+            sum -= mat[(count - 1) / 2][(count - 1) / 2]
+        }
+        
+        return sum
+    }
+}

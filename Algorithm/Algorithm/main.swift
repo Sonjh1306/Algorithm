@@ -1,6 +1,11 @@
 import Foundation
 
-let smallerNumbersThanCurrent = SmallerNumbersThanCurrent()
-print(smallerNumbersThanCurrent.smallerNumbersThanCurrent([8,1,2,2,3]))
-print(smallerNumbersThanCurrent.smallerNumbersThanCurrent([6,5,4,8]))
-print(smallerNumbersThanCurrent.smallerNumbersThanCurrent([7,7,7,7]))
+let matrixDiagonalSum = MatrixDiagonalSum()
+print(matrixDiagonalSum.diagonalSum([[1,2,3],
+                                     [4,5,6],
+                                     [7,8,9]]))
+print(matrixDiagonalSum.diagonalSum([[1,1,1,1],
+                                     [1,1,1,1],
+                                     [1,1,1,1],
+                                     [1,1,1,1]]))
+print(matrixDiagonalSum.diagonalSum([[5]]))
