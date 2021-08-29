@@ -54,3 +54,21 @@ class KidsWithTheGreatestNumberOfCandies {
         return result
     }
 }
+
+class SmallerNumbersThanCurrent {
+    func smallerNumbersThanCurrent(_ nums: [Int]) -> [Int] {
+        var result: [Int] = []
+        var count = 0
+        
+        for i in 0..<nums.count {
+            for j in 0..<nums.count {
+                if i != j && nums[i] > nums[j]{
+                    count += 1
+                }
+            }
+            result.append(count)
+            count = 0
+        }
+        return result
+    }
+}

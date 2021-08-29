@@ -1,5 +1,6 @@
 import Foundation
 
-let kidsWithTheGreatestNumberOfCandies = KidsWithTheGreatestNumberOfCandies()
-print(kidsWithTheGreatestNumberOfCandies.kidsWithCandies([2,3,5,1,3], 3))
-//print(kidsWithTheGreatestNumberOfCandies.kidsWithCandies([4,2,1,1,2], 1))
+let smallerNumbersThanCurrent = SmallerNumbersThanCurrent()
+print(smallerNumbersThanCurrent.smallerNumbersThanCurrent([8,1,2,2,3]))
+print(smallerNumbersThanCurrent.smallerNumbersThanCurrent([6,5,4,8]))
+print(smallerNumbersThanCurrent.smallerNumbersThanCurrent([7,7,7,7]))
