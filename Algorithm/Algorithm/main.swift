@@ -1,5 +1,5 @@
 import Foundation
 
-let arrayFromPermutation = ArrayFromPermutation()
-print(arrayFromPermutation.buildArray([0,2,1,5,3,4]))
-print(arrayFromPermutation.buildArray([5,0,1,2,3,4]))
+let shuffleTheArray = ShuffleTheArray()
+print(shuffleTheArray.shuffle([2,5,1,3,4,7], 3))
+print(shuffleTheArray.shuffle([1,2,3,4,4,3,2,1], 4))
