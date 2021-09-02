@@ -1,10 +1,8 @@
 import Foundation
 
-let rotateArray = RotateArray()
-var nums = [1,2,3,4]
-rotateArray.rotate(&nums, 3)
-
-
-let binarySearch = BinarySearch()
-print(binarySearch.search([-1,0,3,5,9,12], 9))
-print(binarySearch.search([-1,0,3,5,9,12], 2))
+let searchInsertPosition = SearchInsertPosition()
+print(searchInsertPosition.searchInsert([1,3,5,6], 5))
+print(searchInsertPosition.searchInsert([1,3,5,6], 2))
+print(searchInsertPosition.searchInsert([1,3,5,6], 7))
+print(searchInsertPosition.searchInsert([1,3,5,6], 0))
+print(searchInsertPosition.searchInsert([1], 0))
