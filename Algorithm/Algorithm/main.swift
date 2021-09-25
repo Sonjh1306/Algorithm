@@ -1,4 +1,4 @@
 import Foundation
 
-let reverseWordsInAStringIII = ReverseWordsInAStringIII()
-print(reverseWordsInAStringIII.reverseWords("Let's take LeetCode contest"))
+let coin = Coin0()
+print(coin.solution())
