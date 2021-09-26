@@ -1,4 +1,4 @@
 import Foundation
 
-let coin = Coin0()
-print(coin.solution())
+let laundry = Laundry()
+print(laundry.solution())
