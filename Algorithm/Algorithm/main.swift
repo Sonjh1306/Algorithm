@@ -1,4 +1,6 @@
 import Foundation
 
-let logJump = LogJump()
-print(logJump.solution())
+let test = LongestSubstringWithoutRepeatingCharacters()
+//test.lengthOfLongestSubstring("abcabcbb")
+////test.lengthOfLongestSubstring("bbbb")
+print(test.lengthOfLongestSubstring("jbpnbwwd"))
