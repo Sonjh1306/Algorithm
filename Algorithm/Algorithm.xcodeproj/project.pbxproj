@@ -35,6 +35,7 @@
 		BD5E55CD26E0E8DF0013659F /* 2021.09.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E55CC26E0E8DF0013659F /* 2021.09.02.swift */; };
 		BD90E0D526C3FAA8004A5A8A /* 2021.08.10.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90E0D426C3FAA8004A5A8A /* 2021.08.10.swift */; };
 		BD9213252738B5F1008A55CA /* 로또의 최고 순위와 최저 순위.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9213242738B5F1008A55CA /* 로또의 최고 순위와 최저 순위.swift */; };
+		BD92132727390897008A55CA /* 10828.스택.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD92132627390897008A55CA /* 10828.스택.swift */; };
 		BDC2EB6226DA2D5F00FE2B8B /* 2021.08.28.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2EB6126DA2D5F00FE2B8B /* 2021.08.28.swift */; };
 		BDC2EB6426DB570C00FE2B8B /* 2021.08.29.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2EB6326DB570C00FE2B8B /* 2021.08.29.swift */; };
 		BDDEB6F026D3A4CC00257186 /* 2021.08.23.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDEB6EF26D3A4CC00257186 /* 2021.08.23.swift */; };
@@ -87,6 +88,7 @@
 		BD5E55CC26E0E8DF0013659F /* 2021.09.02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.09.02.swift; sourceTree = "<group>"; };
 		BD90E0D426C3FAA8004A5A8A /* 2021.08.10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.10.swift; sourceTree = "<group>"; };
 		BD9213242738B5F1008A55CA /* 로또의 최고 순위와 최저 순위.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "로또의 최고 순위와 최저 순위.swift"; sourceTree = "<group>"; };
+		BD92132627390897008A55CA /* 10828.스택.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10828.스택.swift"; sourceTree = "<group>"; };
 		BDC2EB6126DA2D5F00FE2B8B /* 2021.08.28.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.28.swift; sourceTree = "<group>"; };
 		BDC2EB6326DB570C00FE2B8B /* 2021.08.29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.29.swift; sourceTree = "<group>"; };
 		BDDEB6EF26D3A4CC00257186 /* 2021.08.23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.08.23.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				BD3DD44727004A9D007D9D94 /* 1439.뒤집기.swift */,
 				BD3DD44927004ED4007D9D94 /* 2720.세탁소 사장 동혁.swift */,
 				BD3DD44B27017B36007D9D94 /* 9237.이장님초대.swift */,
+				BD92132627390897008A55CA /* 10828.스택.swift */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				BD3DD44226FF302D007D9D94 /* 11047.동전 0.swift in Sources */,
 				BD20DDA626CD207D003C6CDE /* 2021.08.18.swift in Sources */,
 				BDDEB6F226D4C9C500257186 /* 2021.08.24.swift in Sources */,
+				BD92132727390897008A55CA /* 10828.스택.swift in Sources */,
 				BD3DD43E26FF1208007D9D94 /* 2839.설탕 배달.swift in Sources */,
 				BD20DDA426CB85C6003C6CDE /* 2021.08.17.swift in Sources */,
 				BDE80C2326C28E89006ADCCB /* 2021.08.11.swift in Sources */,
@@ -408,6 +412,7 @@
 		BD0A0C7F26BA70C600F4EB64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KRV7X8GQ6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -419,6 +424,7 @@
 		BD0A0C8026BA70C600F4EB64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KRV7X8GQ6;
 				ENABLE_HARDENED_RUNTIME = YES;
