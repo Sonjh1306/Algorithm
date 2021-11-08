@@ -1,4 +1,4 @@
 import Foundation
 
-let stack = Stack()
-stack.solution()
+let flipTheWord = FlipTheWord()
+flipTheWord.solution()
