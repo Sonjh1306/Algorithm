@@ -1,6 +1,4 @@
 import Foundation
 
-let test = LongestSubstringWithoutRepeatingCharacters()
-//test.lengthOfLongestSubstring("abcabcbb")
-////test.lengthOfLongestSubstring("bbbb")
-print(test.lengthOfLongestSubstring("jbpnbwwd"))
+let lotto = Lotto()
+print(lotto.solution([44, 1, 0, 0, 31, 25], [31, 10, 45, 1, 6, 19]))
