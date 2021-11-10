@@ -15,4 +15,6 @@ class FlipTheWord {
             result = ""
         }
     }
+    
 }
+
