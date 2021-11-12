@@ -34,6 +34,8 @@
 		BD5BDE8E273B94E7005D06E6 /* 위장.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BDE8D273B94E7005D06E6 /* 위장.swift */; };
 		BD5BDE90273BA4DA005D06E6 /* 기능개발.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BDE8F273BA4DA005D06E6 /* 기능개발.swift */; };
 		BD5BDE92273BB17E005D06E6 /* 9012.괄호.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BDE91273BB17E005D06E6 /* 9012.괄호.swift */; };
+		BD5BDE94273BBD70005D06E6 /* 1874.스택 수열.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BDE93273BBD70005D06E6 /* 1874.스택 수열.swift */; };
+		BD5BDE96273E5015005D06E6 /* 프린터.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BDE95273E5015005D06E6 /* 프린터.swift */; };
 		BD5E55C926DF48A70013659F /* 2021.09.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E55C826DF48A70013659F /* 2021.09.01.swift */; };
 		BD5E55CD26E0E8DF0013659F /* 2021.09.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E55CC26E0E8DF0013659F /* 2021.09.02.swift */; };
 		BD64FBD327391C1F008233BD /* 9093.단어뒤집기.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD64FBD227391C1F008233BD /* 9093.단어뒤집기.swift */; };
@@ -91,6 +93,8 @@
 		BD5BDE8D273B94E7005D06E6 /* 위장.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위장.swift"; sourceTree = "<group>"; };
 		BD5BDE8F273BA4DA005D06E6 /* 기능개발.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기능개발.swift"; sourceTree = "<group>"; };
 		BD5BDE91273BB17E005D06E6 /* 9012.괄호.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9012.괄호.swift"; sourceTree = "<group>"; };
+		BD5BDE93273BBD70005D06E6 /* 1874.스택 수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1874.스택 수열.swift"; sourceTree = "<group>"; };
+		BD5BDE95273E5015005D06E6 /* 프린터.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "프린터.swift"; sourceTree = "<group>"; };
 		BD5E55C826DF48A70013659F /* 2021.09.01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.09.01.swift; sourceTree = "<group>"; };
 		BD5E55CC26E0E8DF0013659F /* 2021.09.02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021.09.02.swift; sourceTree = "<group>"; };
 		BD64FBD227391C1F008233BD /* 9093.단어뒤집기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9093.단어뒤집기.swift"; sourceTree = "<group>"; };
@@ -192,6 +196,7 @@
 				BD92132627390897008A55CA /* 10828.스택.swift */,
 				BD64FBD227391C1F008233BD /* 9093.단어뒤집기.swift */,
 				BD5BDE91273BB17E005D06E6 /* 9012.괄호.swift */,
+				BD5BDE93273BBD70005D06E6 /* 1874.스택 수열.swift */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 				BD9213242738B5F1008A55CA /* 로또의 최고 순위와 최저 순위.swift */,
 				BD5BDE8D273B94E7005D06E6 /* 위장.swift */,
 				BD5BDE8F273BA4DA005D06E6 /* 기능개발.swift */,
+				BD5BDE95273E5015005D06E6 /* 프린터.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 				BD90E0D526C3FAA8004A5A8A /* 2021.08.10.swift in Sources */,
 				BDF7E7D026D7663200484716 /* 2021.08.26.swift in Sources */,
 				BD0A0C8A26BA717400F4EB64 /* 2021.07.28.swift in Sources */,
+				BD5BDE96273E5015005D06E6 /* 프린터.swift in Sources */,
 				BD0A0C8226BA70F000F4EB64 /* 2021.07.19.swift in Sources */,
 				BD5E55C926DF48A70013659F /* 2021.09.01.swift in Sources */,
 				BD3DD44827004A9D007D9D94 /* 1439.뒤집기.swift in Sources */,
@@ -298,6 +305,7 @@
 				BD3DD43E26FF1208007D9D94 /* 2839.설탕 배달.swift in Sources */,
 				BD20DDA426CB85C6003C6CDE /* 2021.08.17.swift in Sources */,
 				BDE80C2326C28E89006ADCCB /* 2021.08.11.swift in Sources */,
+				BD5BDE94273BBD70005D06E6 /* 1874.스택 수열.swift in Sources */,
 				BD4EBCB326C61A63006D32D8 /* 2021.08.13.swift in Sources */,
 				BDF6D3902727D711004D9DF7 /* 2021.10.26.swift in Sources */,
 				BDDEB6F426D619C900257186 /* 2021.08.25.swift in Sources */,
