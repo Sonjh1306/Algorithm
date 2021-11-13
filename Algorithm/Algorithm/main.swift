@@ -1,4 +1,4 @@
 import Foundation
 
-let stackSequence = StackSequence()
-stackSequence.solution()
+let editor = Editor()
+editor.solution()
