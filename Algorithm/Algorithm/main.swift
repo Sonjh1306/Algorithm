@@ -1,4 +1,4 @@
 import Foundation
 
-let editor = Editor()
-editor.solution()
+let queue = Queue()
+queue.solution()
