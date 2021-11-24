@@ -1,4 +1,5 @@
 import Foundation
 
-let queue = Queue()
-queue.solution()
+let deck = Deck()
+deck.solution()
+
